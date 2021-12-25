@@ -6,9 +6,11 @@ import co.com.sofka.GenericVO.Identificacion;
 import co.com.sofka.GenericVO.Nombre;
 import co.com.sofka.GrupoDeTrabajo.Values.AreaDeEspecialidad;
 import co.com.sofka.GrupoDeTrabajo.Values.IdCoatch;
+import co.com.sofka.GrupoDeTrabajo.Values.IdGrupoDeTrabajo;
 import co.com.sofka.domain.generic.Command;
 
 public class CrearCoatch  extends Command  {
+    private final IdGrupoDeTrabajo idGrupoDeTrabajo;
     private final IdCoatch entityId;
     private final AreaDeEspecialidad areaDeEspecialidad;
     private final Nombre nombre;
@@ -16,13 +18,18 @@ public class CrearCoatch  extends Command  {
     private final Identificacion identificacion;
     private final Email email;
 
-    public CrearCoatch(IdCoatch entityId, AreaDeEspecialidad areaDeEspecialidad, Nombre nombre, Celular celular, Identificacion identificacion, Email email) {
+    public CrearCoatch(IdGrupoDeTrabajo idGrupoDeTrabajo ,IdCoatch entityId, AreaDeEspecialidad areaDeEspecialidad, Nombre nombre, Celular celular, Identificacion identificacion, Email email) {
+        this.idGrupoDeTrabajo = idGrupoDeTrabajo;
         this.entityId = entityId;
         this.areaDeEspecialidad = areaDeEspecialidad;
         this.nombre = nombre;
         this.celular = celular;
         this.identificacion = identificacion;
         this.email = email;
+    }
+
+    public IdGrupoDeTrabajo getIdGrupoDeTrabajo() {
+        return idGrupoDeTrabajo;
     }
 
     public IdCoatch getEntityId() {
