@@ -18,15 +18,15 @@ public class CrearSupervisorUseCase extends UseCase<RequestCommand<CrearSupervis
     @Override
     public void executeUseCase(RequestCommand<CrearSupervisor> RequestCommand) {
         var command=RequestCommand.getCommand();
-        var Proyecto=new ProyectoAplicativo(new IdProyectoAplicativo(),new Presupuesto("123456789"));
-        Proyecto.CrearSupervisor(
+        var proyecto=ProyectoAplicativo.from(command.getIdProyectoAplicativo(),retrieveEvents(command.getEntityId().value()));
+        proyecto.CrearSupervisor(
                 command.getEntityId(),
                 command.getNombre(),
                 command.getIdentificacion(),
                 command.getEmail(),
                 command.getCelular());
 
-        emit().onResponse(new ResponseEvents(Proyecto.getUncommittedChanges()));
+        emit().onResponse(new ResponseEvents(proyecto.getUncommittedChanges()));
 
     }
 

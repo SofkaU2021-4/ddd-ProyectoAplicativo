@@ -1,0 +1,6 @@
+
+n
+java:S5998"LRefactor this repetition that can lead to a stack overflow for large inputs.(ÍÿÔÚùÿÿÿÿ8ú¡Æ–ß/
+6
+java:S1700	"Rename field "email"(ˆ££¿øÿÿÿÿ8’¢Æ–ß/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õãÿ¹ÿÿÿÿÿ

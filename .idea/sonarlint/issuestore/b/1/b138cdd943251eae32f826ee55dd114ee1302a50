@@ -1,0 +1,16 @@
+
+A
+java:S1602",Remove useless curly braces around statement(¹ùø0
+G
+java:S1602",Remove useless curly braces around statement(¿ÕŒäùÿÿÿÿ
+B
+java:S1602#",Remove useless curly braces around statement(„º®õ
+B
+java:S1602'",Remove useless curly braces around statement(ˆÐœ¹
+B
+java:S1602+",Remove useless curly braces around statement(ë´¼õ
+G
+java:S1602/",Remove useless curly braces around statement(éº‰Ãøÿÿÿÿ
+B
+java:S16023",Remove useless curly braces around statement(½Á–ž
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢¼­¥
