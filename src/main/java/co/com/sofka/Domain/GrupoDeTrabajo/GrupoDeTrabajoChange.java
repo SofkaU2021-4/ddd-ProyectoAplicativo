@@ -11,12 +11,15 @@ import co.com.sofka.Domain.GrupoDeTrabajo.Entities.Programador;
 import co.com.sofka.Domain.GrupoDeTrabajo.Events.*;
 import co.com.sofka.domain.generic.EventChange;
 
+import java.util.HashSet;
+
 public class GrupoDeTrabajoChange extends EventChange {
     public GrupoDeTrabajoChange(GrupoDeTrabajo grupoDeTrabajo) {
 
 
         apply((GrupoDeTrabajoCreado event)->{
             grupoDeTrabajo.nombre= event.getNombre();
+            grupoDeTrabajo.programadores = new HashSet<>();
         });
 
         apply((CoatchCreado event)->{

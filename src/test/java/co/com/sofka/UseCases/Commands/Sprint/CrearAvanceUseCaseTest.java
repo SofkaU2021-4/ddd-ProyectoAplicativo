@@ -3,10 +3,14 @@ package co.com.sofka.UseCases.Commands.Sprint;
 
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdGrupoDeTrabajo;
 import co.com.sofka.Domain.Sprint.Commands.CrearAvance;
+import co.com.sofka.Domain.Sprint.Events.AvanceCreado;
 import co.com.sofka.Domain.Sprint.Events.SprintCreado;
 import co.com.sofka.Domain.Sprint.Values.*;
+import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
+import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -37,7 +41,21 @@ class CrearAvanceUseCaseTest {
         Mockito.when(repository.getEventsBy(idAvance.value())).thenReturn(EventStored());
         useCase.addRepository(repository);
 
+        var events = UseCaseHandler.getInstance()
+                .setIdentifyExecutor(idAvance.value())
+                .syncExecutor(useCase, new RequestCommand<>(command))
+                .orElseThrow()
+                .getDomainEvents();
 
+
+        AvanceCreado event = (AvanceCreado) events.get(0);
+
+        Assertions.assertEquals(idAvance.value() , event.getEntityId().value());
+        Assertions.assertEquals(descripcion.value() , event.getDescripcion().value());
+
+
+
+        Mockito.verify(repository).getEventsBy(idAvance.value());
     }
 
     private List<DomainEvent> EventStored() {
