@@ -40,6 +40,6 @@ public class NIT implements ValueObject<String> {
 
     @Override
     public String value() {
-        return null;
+        return nit;
     }
 }

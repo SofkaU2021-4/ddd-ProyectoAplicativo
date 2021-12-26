@@ -9,6 +9,10 @@ public class FechaCreacion implements ValueObject<Date> {
     Date fecha ;
     @Override
     public Date value() {
-        return new Date(Instant.now().toEpochMilli());
+        return fecha;
     }
+    public  FechaCreacion(){
+        this.fecha= new Date();
+    }
+
 }

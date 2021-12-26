@@ -27,7 +27,7 @@ public class GrupoDeTrabajo extends AggregateEvent<IdGrupoDeTrabajo> {
     public GrupoDeTrabajo(IdGrupoDeTrabajo entityId, Nombre nombre) {
         super(entityId);
         this.nombre = nombre;
-        appendChange(new GrupoDeTrabajoCreado(nombre));
+        appendChange(new GrupoDeTrabajoCreado(nombre)).apply();
     }
     public GrupoDeTrabajo(IdGrupoDeTrabajo entityId){
         super(entityId);

@@ -1,29 +1,35 @@
 package co.com.sofka.Domain.Sprint.Commands;
 
-import co.com.sofka.Domain.Sprint.Values.Descripcion;
-import co.com.sofka.Domain.Sprint.Values.IdAvance;
-import co.com.sofka.Domain.Sprint.Values.IdSprint;
+import co.com.sofka.Domain.Sprint.Values.*;
 import co.com.sofka.domain.generic.Command;
 
 public class AñadirObjetivo  extends Command {
 
     private final IdSprint idSprint;
-    private final IdAvance entityId;
-    private final Descripcion descripcion;
 
-    public AñadirObjetivo(IdSprint idSprint,IdAvance entityId, Descripcion descripcion) {
+    private final IdObjetivo entityId;
+    private final Descripcion descripcion;
+    private final FechaCreacion fechaCreacion;
+
+    public AñadirObjetivo(IdSprint idSprint, IdObjetivo entityId, Descripcion descripcion , FechaCreacion fechaCreacion) {
         this.idSprint = idSprint;
         this.entityId = entityId;
         this.descripcion = descripcion;
+        this.fechaCreacion = fechaCreacion;
+    }
+
+    public IdObjetivo getEntityId() {
+        return entityId;
+    }
+
+    public FechaCreacion getFechaCreacion() {
+        return fechaCreacion;
     }
 
     public IdSprint getIdSprint() {
         return idSprint;
     }
 
-    public IdAvance getEntityId() {
-        return entityId;
-    }
 
     public Descripcion getDescripcion() {
         return descripcion;

@@ -7,14 +7,14 @@ import co.com.sofka.domain.generic.Command;
 
 public class CrearSprint extends Command {
     private final IdSprint idSprint;
-    private final IdSprint entityId;
+
     private final Descripcion descripcion;
     private final IdGrupoDeTrabajo grupoDeTrabajoId;
 
-    public CrearSprint(IdSprint idSprint, IdSprint entityId, Descripcion descripcion, IdGrupoDeTrabajo grupoDeTrabajoId) {
+    public CrearSprint(IdSprint idSprint, Descripcion descripcion, IdGrupoDeTrabajo grupoDeTrabajoId) {
         this.idSprint = idSprint;
 
-        this.entityId = entityId;
+
         this.descripcion = descripcion;
         this.grupoDeTrabajoId = grupoDeTrabajoId;
     }
@@ -23,9 +23,6 @@ public class CrearSprint extends Command {
         return idSprint;
     }
 
-    public IdSprint getEntityId() {
-        return entityId;
-    }
 
     public Descripcion getDescripcion() {
         return descripcion;

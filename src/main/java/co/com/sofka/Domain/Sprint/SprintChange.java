@@ -7,6 +7,8 @@ import co.com.sofka.Domain.Sprint.Entities.Tarea;
 import co.com.sofka.Domain.Sprint.Events.*;
 import co.com.sofka.domain.generic.EventChange;
 
+import java.util.HashSet;
+
 public class SprintChange extends EventChange {
     public SprintChange(Sprint sprint) {
 
@@ -42,6 +44,9 @@ public class SprintChange extends EventChange {
 
         apply((SprintCreado event)->{
             sprint.descripcion = event.getDescripcion();
+            sprint.avances= new HashSet<>();
+            sprint.objetivos= new HashSet<>();
+            sprint.tareas= new HashSet<>();
         });
 
         apply((TareaAñadida event)->{

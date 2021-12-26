@@ -27,7 +27,7 @@ public class Sprint extends AggregateEvent<IdSprint> {
         this.descripcion = descripcion;
         this.grupoDeTrabajoId = grupoDeTrabajoId;
 
-        appendChange(new SprintCreado(entityId ,  descripcion ,  grupoDeTrabajoId)).apply();
+        appendChange(new SprintCreado( descripcion ,  grupoDeTrabajoId)).apply();
     }
 
     public Sprint(IdSprint entityId ){
