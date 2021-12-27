@@ -1,0 +1,17 @@
+
+M
+java:S2160"+Override the "equals" method in this class.(ç…í¢ûÿÿÿÿ8ªô¤Ãß/
+j	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖŠÕµ8®ô¤Ãß/
+j	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¢ïÍ8°ô¤Ãß/
+o	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ®Õèşÿÿÿÿ8±ô¤Ãß/
+j	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñìŞÙ8²ô¤Ãß/
+j	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸‹ŞÌ8³ô¤Ãß/
+o	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÎ„úÿÿÿÿ8´ô¤Ãß/
+j	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄØ¤›8µô¤Ãß/
+o	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Óê­ûÿÿÿÿ8µô¤Ãß/
+j	java:S100q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆãœÉ8¶ô¤Ãß/
+o	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù‡é¬üÿÿÿÿ8·ô¤Ãß/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïİ’´øÿÿÿÿ8¸ô¤Ãß/
+y
+java:S2159‰"VRemove this call to "equals"; comparisons between unrelated types always return false.(å›ÿÿşÿÿÿÿ8¹ô¤Ãß/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯åËµ

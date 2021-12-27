@@ -1,0 +1,5 @@
+
+v
+java:S1128"YRemove this unused import 'co.com.sofka.Domain.ProyectoAplicativo.Commands.CrearCliente'.(΅ί–έ8―νυΖί/
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Γ…Π 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ο£δϋÿÿÿÿ
