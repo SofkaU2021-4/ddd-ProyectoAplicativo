@@ -2,7 +2,7 @@
 
 
 # Diseño
-![](Untitled Diagram-Page-1.jpg)
+![](https://github.com/SofkaU2021-4/ddd-ProyectoAplicativo/blob/main/Untitled%20Diagram-Page-1.jpg)
 
 
 Use Case/Problem
