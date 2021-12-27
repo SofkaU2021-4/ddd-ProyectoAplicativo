@@ -193,12 +193,8 @@ Ssrc/main/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearCoatchUseCase.
 Tsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/Events/LiderGrupoTrabajoCreado.java,c\3\c397afe19c3eed662fdc6fa3899aa5753aaf71c1
 t
 Dsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/GrupoDeTrabajo.java,4\9\49ee682a41e0c323bbae52f12ade4b26e6788086
-ç
-]src/test/java/co/com/sofka/UseCases/Commands/ProyectoAplicativo/CrearProyectoUseCaseTest.java,5\0\5065ac7d3e073fd42af41f2fd00d0dcc5f056b6b
 á
 Wsrc/test/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearCoatchUseCaseTest.java,9\b\9b0844b8bd655c8c4a883d05c43d905e76d9ca61
-è
-_src/test/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearGrupoDeTrabajoUseCaseTest.java,1\4\149e7efbb24f8674345bb5ce7060c0d5c4d0dfdf
 É
 Ssrc/test/java/co/com/sofka/UseCases/Commands/Sprint/AgregarObjetivoUseCaseTest.java,2\a\2ac4f19859e5c3dca8bef9f26c29bbc8802c42ab
 è
