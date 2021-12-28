@@ -130,6 +130,23 @@ public class Sprint extends AggregateEvent<IdSprint> {
                 .findFirst();
     }
 
+    public Descripcion descripcion() {
+        return descripcion;
+    }
 
+    public IdGrupoDeTrabajo grupoDeTrabajoId() {
+        return grupoDeTrabajoId;
+    }
 
+    public Set<Avance> avances() {
+        return avances;
+    }
+
+    public Set<Tarea> tareas() {
+        return tareas;
+    }
+
+    public Set<Objetivo> objetivos() {
+        return objetivos;
+    }
 }

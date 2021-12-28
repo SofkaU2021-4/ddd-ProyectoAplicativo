@@ -139,7 +139,19 @@ public class GrupoDeTrabajo extends AggregateEvent<IdGrupoDeTrabajo> {
     }
 
 
+    public Nombre nombre() {
+        return nombre;
+    }
 
+    public Set<Programador> programadores() {
+        return programadores;
+    }
 
+    public LiderGrupoTrabajo liderGrupo() {
+        return liderGrupo;
+    }
 
+    public Coatch coatch() {
+        return coatch;
+    }
 }

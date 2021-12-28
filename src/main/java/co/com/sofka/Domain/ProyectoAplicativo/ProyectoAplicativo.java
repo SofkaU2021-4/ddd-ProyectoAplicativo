@@ -115,7 +115,31 @@ public class ProyectoAplicativo extends AggregateEvent<IdProyectoAplicativo> {
         appendChange(new CelularClienteActualizado(celular)).apply();
     }
 
+    public LiderProyecto liderProyecto() {
+        return liderProyecto;
+    }
 
+    public Presupuesto presupuesto() {
+        return presupuesto;
+    }
 
+    public FechaInicio fechaInicio() {
+        return fechaInicio;
+    }
 
+    public Set<IdGrupoDeTrabajo> calendario() {
+        return calendario;
+    }
+
+    public Cliente cliente() {
+        return cliente;
+    }
+
+    public Supervisor supervisor() {
+        return supervisor;
+    }
+
+    public FechaFinalizacion fechaFinalizacion() {
+        return fechaFinalizacion;
+    }
 }

@@ -137,8 +137,6 @@ Rsrc/main/java/co/com/sofka/Domain/ProyectoAplicativo/ProyectoAplicativoChange.j
 Rsrc/main/java/co/com/sofka/Domain/ProyectoAplicativo/Commands/CrearSupervisor.java,e\f\ef4c8bc210ef438bede3512ca2de5f9a034f0a46
 â
 Ysrc/main/java/co/com/sofka/Domain/ProyectoAplicativo/Events/ProyectoAplicativoCreado.java,7\3\73c7311f7c281b4341eb18725daeda9da3bbbbc1
-|
-Lsrc/main/java/co/com/sofka/Domain/ProyectoAplicativo/ProyectoAplicativo.java,4\c\4c28918931dca11f0500432391fd51fa0acf4fee
 r
 Bsrc/main/java/co/com/sofka/Domain/Sprint/Commands/CrearSprint.java,a\f\afb153e9b83887628e686911f8ab5531570896ec
 u
@@ -181,8 +179,6 @@ l
 Lsrc/main/java/co/com/sofka/UseCases/Commands/Sprint/A√±adirTareaUseCase.java,2\3\234a1d38b86e1dbd7cb3692295b7c66625374838
 {
 Ksrc/main/java/co/com/sofka/UseCases/Commands/Sprint/CrearAvanceUseCase.java,6\9\6948c1208c03f872b3162bbef79b1b786426f409
-d
-4src/main/java/co/com/sofka/Domain/Sprint/Sprint.java,c\e\ce864d0c6bbffac8afdb4fa7ef64346c4ca91434
 z
 Jsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/Commands/CrearCoatch.java,4\f\4f72b4f2f42b23332e738d51743f48f5dd61d209
 Ö
@@ -191,8 +187,6 @@ Usrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/Commands/CrearLiderGrupoTrabaj
 Ssrc/main/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearCoatchUseCase.java,2\f\2f8497f5642287a66dfc89970477a60e220cb495
 Ñ
 Tsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/Events/LiderGrupoTrabajoCreado.java,c\3\c397afe19c3eed662fdc6fa3899aa5753aaf71c1
-t
-Dsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/GrupoDeTrabajo.java,4\9\49ee682a41e0c323bbae52f12ade4b26e6788086
 á
 Wsrc/test/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearCoatchUseCaseTest.java,9\b\9b0844b8bd655c8c4a883d05c43d905e76d9ca61
 É
@@ -225,3 +219,19 @@ z
 Jsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/GrupoDeTrabajoChange.java,f\0\f06347b311a615d62540495f43ba386d75571bf5
 à
 Xsrc/main/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearProgramadorUseCase.java,d\7\d7bf0ed5debde0cd7095d767fe86a58155d6ba99
+Ü
+Vsrc/main/java/co/com/sofka/UseCases/Events/GrupoDeTrabajo/SendEmailGrupoDeTrabajo.java,f\2\f289ec144a9ceb996059b42d037e4f2758e518a5
+ç
+]src/test/java/co/com/sofka/UseCases/Commands/ProyectoAplicativo/CrearProyectoUseCaseTest.java,5\0\5065ac7d3e073fd42af41f2fd00d0dcc5f056b6b
+ã
+[src/main/java/co/com/sofka/UseCases/Events/ProyectoAplicativo/NotificarProyectoUseCase.java,0\3\0399f51b09cf969e48f36c1c9026cc70602cb937
+ã
+[src/main/java/co/com/sofka/UseCases/Events/ProyectoAplicativo/SendEmailProyectoService.java,f\6\f605f5ffe9b796bd4542e50f344630454dc30935
+è
+_src/test/java/co/com/sofka/UseCases/Events/ProyectoAplicativo/NotificarProyectoUseCaseTest.java,c\3\c3d15123bb650bebf1945701cc1034fa0c9b965a
+ë
+asrc/test/java/co/com/sofka/UseCases/Events/GrupoDeTrabajo/NotificarGrupoDeTrabajoUseCaseTest.java,e\b\eb49fec7aa7d6b66a047818dc33c578eb07b3ba7
+ç
+]src/main/java/co/com/sofka/UseCases/Events/GrupoDeTrabajo/NotificarGrupoDeTrabajoUseCase.java,2\d\2d78fef3744e8648c0c6cd01a0090c2a8bc4c05b
+è
+_src/test/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearGrupoDeTrabajoUseCaseTest.java,1\4\149e7efbb24f8674345bb5ce7060c0d5c4d0dfdf
