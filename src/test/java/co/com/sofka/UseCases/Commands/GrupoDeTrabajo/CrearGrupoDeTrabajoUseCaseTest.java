@@ -3,7 +3,7 @@ package co.com.sofka.UseCases.Commands.GrupoDeTrabajo;
 import co.com.sofka.Domain.GrupoDeTrabajo.Commands.CrearGrupoDeTrabajo;
 import co.com.sofka.Domain.GrupoDeTrabajo.Events.GrupoDeTrabajoCreado;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdGrupoDeTrabajo;
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
@@ -12,7 +12,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 

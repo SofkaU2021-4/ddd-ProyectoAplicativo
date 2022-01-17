@@ -1,18 +1,15 @@
 package co.com.sofka.UseCases.Commands.GrupoDeTrabajo;
 
 import co.com.sofka.Domain.GrupoDeTrabajo.Commands.AñadirProgramador;
-import co.com.sofka.Domain.GrupoDeTrabajo.Commands.CrearLiderGrupoTrabajo;
 import co.com.sofka.Domain.GrupoDeTrabajo.Events.GrupoDeTrabajoCreado;
-import co.com.sofka.Domain.GrupoDeTrabajo.Events.LiderGrupoTrabajoCreado;
 import co.com.sofka.Domain.GrupoDeTrabajo.Events.ProgramadorAñadido;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdGrupoDeTrabajo;
-import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdLiderGrupoTrabajo;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdProgramador;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.Rol;
-import co.com.sofka.GenericVO.Celular;
-import co.com.sofka.GenericVO.Email;
-import co.com.sofka.GenericVO.Identificacion;
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Celular;
+import co.com.sofka.Domain.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Identificacion;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
@@ -26,8 +23,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class CrearProgramadorUseCaseTest {

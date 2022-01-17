@@ -1,9 +1,9 @@
 package co.com.sofka.Domain.ProyectoAplicativo.Entities;
 
-import co.com.sofka.GenericVO.Celular;
-import co.com.sofka.GenericVO.Email;
-import co.com.sofka.GenericVO.Identificacion;
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Celular;
+import co.com.sofka.Domain.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Identificacion;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.IdLiderProyecto;
 import co.com.sofka.domain.generic.Entity;
 

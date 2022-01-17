@@ -1,6 +1,6 @@
 package co.com.sofka.Domain.ProyectoAplicativo.Events;
 
-import co.com.sofka.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Email;
 import co.com.sofka.domain.generic.DomainEvent;
 
 public class EmailClienteActualizado extends DomainEvent {

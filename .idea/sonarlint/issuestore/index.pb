@@ -235,3 +235,11 @@ asrc/test/java/co/com/sofka/UseCases/Events/GrupoDeTrabajo/NotificarGrupoDeTraba
 ]src/main/java/co/com/sofka/UseCases/Events/GrupoDeTrabajo/NotificarGrupoDeTrabajoUseCase.java,2\d\2d78fef3744e8648c0c6cd01a0090c2a8bc4c05b
 è
 _src/test/java/co/com/sofka/UseCases/Commands/GrupoDeTrabajo/CrearGrupoDeTrabajoUseCaseTest.java,1\4\149e7efbb24f8674345bb5ce7060c0d5c4d0dfdf
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+d
+4src/main/java/co/com/sofka/Domain/Sprint/Sprint.java,c\e\ce864d0c6bbffac8afdb4fa7ef64346c4ca91434
+|
+Lsrc/main/java/co/com/sofka/Domain/ProyectoAplicativo/ProyectoAplicativo.java,4\c\4c28918931dca11f0500432391fd51fa0acf4fee
+t
+Dsrc/main/java/co/com/sofka/Domain/GrupoDeTrabajo/GrupoDeTrabajo.java,4\9\49ee682a41e0c323bbae52f12ade4b26e6788086

@@ -1,6 +1,6 @@
 package co.com.sofka.Domain.GrupoDeTrabajo.Events;
 
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.domain.generic.DomainEvent;
 
 public class GrupoDeTrabajoCreado extends DomainEvent {

@@ -1,6 +1,6 @@
 package co.com.sofka.Domain.ProyectoAplicativo.Commands;
 
-import co.com.sofka.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Email;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.IdProyectoAplicativo;
 import co.com.sofka.domain.generic.Command;
 

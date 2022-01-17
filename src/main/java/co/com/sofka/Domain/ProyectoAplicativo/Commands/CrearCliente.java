@@ -1,7 +1,7 @@
 package co.com.sofka.Domain.ProyectoAplicativo.Commands;
 
-import co.com.sofka.GenericVO.Celular;
-import co.com.sofka.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Celular;
+import co.com.sofka.Domain.GenericVO.Email;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.IdClienteId;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.IdProyectoAplicativo;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.NIT;

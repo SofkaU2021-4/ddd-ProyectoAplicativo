@@ -1,9 +1,9 @@
 package co.com.sofka.Domain.GrupoDeTrabajo.Events;
 
-import co.com.sofka.GenericVO.Celular;
-import co.com.sofka.GenericVO.Email;
-import co.com.sofka.GenericVO.Identificacion;
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Celular;
+import co.com.sofka.Domain.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Identificacion;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.AreaDeEspecialidad;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdCoatch;
 import co.com.sofka.domain.generic.DomainEvent;

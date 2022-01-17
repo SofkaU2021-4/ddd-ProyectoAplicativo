@@ -1,6 +1,6 @@
 package co.com.sofka.Domain.GrupoDeTrabajo.Events;
 
-import co.com.sofka.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Email;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdProgramador;
 import co.com.sofka.domain.generic.DomainEvent;
 

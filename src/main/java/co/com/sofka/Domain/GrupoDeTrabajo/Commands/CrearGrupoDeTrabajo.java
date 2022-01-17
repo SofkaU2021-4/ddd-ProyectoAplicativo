@@ -1,6 +1,6 @@
 package co.com.sofka.Domain.GrupoDeTrabajo.Commands;
 
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.Domain.GrupoDeTrabajo.Values.IdGrupoDeTrabajo;
 import co.com.sofka.domain.generic.Command;
 

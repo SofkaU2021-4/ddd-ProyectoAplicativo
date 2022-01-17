@@ -1,15 +1,13 @@
 package co.com.sofka.UseCases.Commands.ProyectoAplicativo;
 
-import co.com.sofka.Domain.ProyectoAplicativo.Commands.CrearCliente;
 import co.com.sofka.Domain.ProyectoAplicativo.Commands.CrearLiderProyecto;
-import co.com.sofka.Domain.ProyectoAplicativo.Events.ClienteCreado;
 import co.com.sofka.Domain.ProyectoAplicativo.Events.LiderProyectoCreado;
 import co.com.sofka.Domain.ProyectoAplicativo.Events.ProyectoAplicativoCreado;
 import co.com.sofka.Domain.ProyectoAplicativo.Values.*;
-import co.com.sofka.GenericVO.Celular;
-import co.com.sofka.GenericVO.Email;
-import co.com.sofka.GenericVO.Identificacion;
-import co.com.sofka.GenericVO.Nombre;
+import co.com.sofka.Domain.GenericVO.Celular;
+import co.com.sofka.Domain.GenericVO.Email;
+import co.com.sofka.Domain.GenericVO.Identificacion;
+import co.com.sofka.Domain.GenericVO.Nombre;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
@@ -23,8 +21,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @ExtendWith(MockitoExtension.class)

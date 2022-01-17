@@ -1,4 +1,4 @@
-package co.com.sofka.GenericVO;
+package co.com.sofka.Domain.GenericVO;
 
 import co.com.sofka.domain.generic.ValueObject;
 
